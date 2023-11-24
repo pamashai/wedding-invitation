@@ -7,14 +7,28 @@
     <title>Wedding Invitation</title>
     <style>
         /* Add your CSS styles for animation if needed */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        #invitationImage {
+            animation: fadeIn 2s ease-in-out;
+        }
     </style>
 </head>
 
 <body>
     <div id="animation">
         <!-- Add your animation content here -->
+        <h1>You're Invited!</h1>
+        <p>Join us in celebrating this special day...</p>
     </div>
-    <img id="invitationImage" src="your_wedding_invitation_image.jpg" alt="Wedding Invitation">
+    <img id="invitationImage" src="Wedding Invitation.jpg" alt="Wedding Invitation">
 </body>
 
 </html>
